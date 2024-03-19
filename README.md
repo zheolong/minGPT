@@ -22,6 +22,7 @@ If you want to `import mingpt` into your project:
 git clone https://github.com/karpathy/minGPT.git
 cd minGPT
 pip install -e .
+pip install torch torchvision torchaudio chardet numpy
 ```
 
 ### Usage
@@ -54,6 +55,8 @@ trainer.run()
 ```
 
 See `demo.ipynb` for a more concrete example.
+
+See `demo.py` for python source code.
 
 ### Unit tests
 
